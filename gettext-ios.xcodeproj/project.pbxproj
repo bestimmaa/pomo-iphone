@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7127F911D031D950020F058 /* muParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F741D031D950020F058 /* muParser.cpp */; };
-		A7127F921D031D950020F058 /* muParserBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F751D031D950020F058 /* muParserBase.cpp */; };
-		A7127F931D031D950020F058 /* muParserBytecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F761D031D950020F058 /* muParserBytecode.cpp */; };
-		A7127F941D031D950020F058 /* muParserCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F771D031D950020F058 /* muParserCallback.cpp */; };
-		A7127F951D031D950020F058 /* muParserDLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F781D031D950020F058 /* muParserDLL.cpp */; };
-		A7127F961D031D950020F058 /* muParserError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F791D031D950020F058 /* muParserError.cpp */; };
-		A7127F971D031D950020F058 /* muParserInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7A1D031D950020F058 /* muParserInt.cpp */; };
-		A7127F981D031D950020F058 /* muParserTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7B1D031D950020F058 /* muParserTest.cpp */; };
-		A7127F991D031D950020F058 /* muParserTokenReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7C1D031D950020F058 /* muParserTokenReader.cpp */; };
 		A7127F9A1D031D950020F058 /* GettextHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7F1D031D950020F058 /* GettextHelpers.m */; };
 		A7127F9B1D031D950020F058 /* GettextTranslations.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7127F811D031D950020F058 /* GettextTranslations.mm */; };
 		A7127F9C1D031D950020F058 /* MOParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F831D031D950020F058 /* MOParser.m */; };
@@ -24,6 +15,17 @@
 		A7127F9F1D031D950020F058 /* TranslationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8B1D031D950020F058 /* TranslationCenter.m */; };
 		A7127FA01D031D950020F058 /* TranslationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8D1D031D950020F058 /* TranslationEntry.m */; };
 		A7127FA11D031D950020F058 /* Translations.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8F1D031D950020F058 /* Translations.m */; };
+		A7127FA41D031F660020F058 /* GettextHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F7E1D031D950020F058 /* GettextHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7127FA51D031F750020F058 /* GettextTranslations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F801D031D950020F058 /* GettextTranslations.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FA61D031F810020F058 /* MOParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F821D031D950020F058 /* MOParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FA71D031F840020F058 /* NOOPTranslations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F841D031D950020F058 /* NOOPTranslations.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FA81D031F890020F058 /* ParserProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F861D031D950020F058 /* ParserProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FA91D031F8D0020F058 /* POParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F881D031D950020F058 /* POParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FAA1D031F8F0020F058 /* TranslationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8A1D031D950020F058 /* TranslationCenter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FAB1D031F930020F058 /* TranslationEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8C1D031D950020F058 /* TranslationEntry.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FAC1D031F970020F058 /* Translations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8E1D031D950020F058 /* Translations.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FAD1D031F990020F058 /* TranslationsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F901D031D950020F058 /* TranslationsProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FAF1D031FA50020F058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7127FAE1D031FA50020F058 /* Foundation.framework */; };
 		A7A63A391D031CE600D1CEA3 /* gettext_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7A63A381D031CE600D1CEA3 /* gettext_ios.h */; };
 		A7A63A3B1D031CE600D1CEA3 /* gettext_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */; };
 /* End PBXBuildFile section */
@@ -86,6 +88,7 @@
 		A7127F8E1D031D950020F058 /* Translations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Translations.h; sourceTree = "<group>"; };
 		A7127F8F1D031D950020F058 /* Translations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translations.m; sourceTree = "<group>"; };
 		A7127F901D031D950020F058 /* TranslationsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationsProtocol.h; sourceTree = "<group>"; };
+		A7127FAE1D031FA50020F058 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7A63A351D031CE600D1CEA3 /* libgettext-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgettext-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A63A381D031CE600D1CEA3 /* gettext_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gettext_ios.h; sourceTree = "<group>"; };
 		A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gettext_ios.m; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7127FAF1D031FA50020F058 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +180,20 @@
 			path = "pomo-iphone";
 			sourceTree = "<group>";
 		};
-		A7A63A2C1D031CE600D1CEA3 = {
+		A7127FA21D031DBF0020F058 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
 				A7127F611D031D950020F058 /* muparser */,
 				A7127F7D1D031D950020F058 /* pomo-iphone */,
+			);
+			name = vendor;
+			sourceTree = "<group>";
+		};
+		A7A63A2C1D031CE600D1CEA3 = {
+			isa = PBXGroup;
+			children = (
+				A7127FAE1D031FA50020F058 /* Foundation.framework */,
+				A7127FA21D031DBF0020F058 /* vendor */,
 				A7A63A371D031CE600D1CEA3 /* gettext-ios */,
 				A7A63A361D031CE600D1CEA3 /* Products */,
 			);
@@ -205,6 +218,26 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A7127FA31D031F540020F058 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7127FA41D031F660020F058 /* GettextHelpers.h in Headers */,
+				A7127FA61D031F810020F058 /* MOParser.h in Headers */,
+				A7127FA71D031F840020F058 /* NOOPTranslations.h in Headers */,
+				A7127FA51D031F750020F058 /* GettextTranslations.h in Headers */,
+				A7127FA81D031F890020F058 /* ParserProtocol.h in Headers */,
+				A7127FA91D031F8D0020F058 /* POParser.h in Headers */,
+				A7127FAA1D031F8F0020F058 /* TranslationCenter.h in Headers */,
+				A7127FAB1D031F930020F058 /* TranslationEntry.h in Headers */,
+				A7127FAC1D031F970020F058 /* Translations.h in Headers */,
+				A7127FAD1D031F990020F058 /* TranslationsProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		A7A63A341D031CE600D1CEA3 /* gettext-ios */ = {
 			isa = PBXNativeTarget;
@@ -213,6 +246,7 @@
 				A7A63A311D031CE600D1CEA3 /* Sources */,
 				A7A63A321D031CE600D1CEA3 /* Frameworks */,
 				A7A63A331D031CE600D1CEA3 /* CopyFiles */,
+				A7127FA31D031F540020F058 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -261,22 +295,13 @@
 			files = (
 				A7127F9C1D031D950020F058 /* MOParser.m in Sources */,
 				A7127FA01D031D950020F058 /* TranslationEntry.m in Sources */,
-				A7127F981D031D950020F058 /* muParserTest.cpp in Sources */,
 				A7127F9A1D031D950020F058 /* GettextHelpers.m in Sources */,
 				A7127F9D1D031D950020F058 /* NOOPTranslations.m in Sources */,
-				A7127F911D031D950020F058 /* muParser.cpp in Sources */,
 				A7127F9E1D031D950020F058 /* POParser.m in Sources */,
-				A7127F961D031D950020F058 /* muParserError.cpp in Sources */,
-				A7127F971D031D950020F058 /* muParserInt.cpp in Sources */,
-				A7127F921D031D950020F058 /* muParserBase.cpp in Sources */,
 				A7A63A3B1D031CE600D1CEA3 /* gettext_ios.m in Sources */,
-				A7127F951D031D950020F058 /* muParserDLL.cpp in Sources */,
-				A7127F931D031D950020F058 /* muParserBytecode.cpp in Sources */,
 				A7127F9B1D031D950020F058 /* GettextTranslations.mm in Sources */,
-				A7127F941D031D950020F058 /* muParserCallback.cpp in Sources */,
 				A7127FA11D031D950020F058 /* Translations.m in Sources */,
 				A7127F9F1D031D950020F058 /* TranslationCenter.m in Sources */,
-				A7127F991D031D950020F058 /* muParserTokenReader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +393,10 @@
 		A7A63A3F1D031CE600D1CEA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/pomo-iphone";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -377,8 +404,10 @@
 		A7A63A401D031CE600D1CEA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/pomo-iphone";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
