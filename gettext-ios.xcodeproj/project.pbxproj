@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7127F911D031D950020F058 /* muParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F741D031D950020F058 /* muParser.cpp */; };
+		A7127F921D031D950020F058 /* muParserBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F751D031D950020F058 /* muParserBase.cpp */; };
+		A7127F931D031D950020F058 /* muParserBytecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F761D031D950020F058 /* muParserBytecode.cpp */; };
+		A7127F941D031D950020F058 /* muParserCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F771D031D950020F058 /* muParserCallback.cpp */; };
+		A7127F951D031D950020F058 /* muParserDLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F781D031D950020F058 /* muParserDLL.cpp */; };
+		A7127F961D031D950020F058 /* muParserError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F791D031D950020F058 /* muParserError.cpp */; };
+		A7127F971D031D950020F058 /* muParserInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7A1D031D950020F058 /* muParserInt.cpp */; };
+		A7127F981D031D950020F058 /* muParserTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7B1D031D950020F058 /* muParserTest.cpp */; };
+		A7127F991D031D950020F058 /* muParserTokenReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7C1D031D950020F058 /* muParserTokenReader.cpp */; };
+		A7127F9A1D031D950020F058 /* GettextHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7F1D031D950020F058 /* GettextHelpers.m */; };
+		A7127F9B1D031D950020F058 /* GettextTranslations.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7127F811D031D950020F058 /* GettextTranslations.mm */; };
+		A7127F9C1D031D950020F058 /* MOParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F831D031D950020F058 /* MOParser.m */; };
+		A7127F9D1D031D950020F058 /* NOOPTranslations.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F851D031D950020F058 /* NOOPTranslations.m */; };
+		A7127F9E1D031D950020F058 /* POParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F891D031D950020F058 /* POParser.m */; };
+		A7127F9F1D031D950020F058 /* TranslationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8B1D031D950020F058 /* TranslationCenter.m */; };
+		A7127FA01D031D950020F058 /* TranslationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8D1D031D950020F058 /* TranslationEntry.m */; };
+		A7127FA11D031D950020F058 /* Translations.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8F1D031D950020F058 /* Translations.m */; };
 		A7A63A391D031CE600D1CEA3 /* gettext_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7A63A381D031CE600D1CEA3 /* gettext_ios.h */; };
 		A7A63A3B1D031CE600D1CEA3 /* gettext_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */; };
 /* End PBXBuildFile section */
@@ -25,6 +42,50 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A7127F621D031D950020F058 /* Changes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changes.txt; sourceTree = "<group>"; };
+		A7127F641D031D950020F058 /* muParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParser.h; sourceTree = "<group>"; };
+		A7127F651D031D950020F058 /* muParserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserBase.h; sourceTree = "<group>"; };
+		A7127F661D031D950020F058 /* muParserBytecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserBytecode.h; sourceTree = "<group>"; };
+		A7127F671D031D950020F058 /* muParserCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserCallback.h; sourceTree = "<group>"; };
+		A7127F681D031D950020F058 /* muParserDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserDef.h; sourceTree = "<group>"; };
+		A7127F691D031D950020F058 /* muParserDLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserDLL.h; sourceTree = "<group>"; };
+		A7127F6A1D031D950020F058 /* muParserError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserError.h; sourceTree = "<group>"; };
+		A7127F6B1D031D950020F058 /* muParserFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserFixes.h; sourceTree = "<group>"; };
+		A7127F6C1D031D950020F058 /* muParserInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserInt.h; sourceTree = "<group>"; };
+		A7127F6D1D031D950020F058 /* muParserStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserStack.h; sourceTree = "<group>"; };
+		A7127F6E1D031D950020F058 /* muParserTemplateMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserTemplateMagic.h; sourceTree = "<group>"; };
+		A7127F6F1D031D950020F058 /* muParserTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserTest.h; sourceTree = "<group>"; };
+		A7127F701D031D950020F058 /* muParserToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserToken.h; sourceTree = "<group>"; };
+		A7127F711D031D950020F058 /* muParserTokenReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserTokenReader.h; sourceTree = "<group>"; };
+		A7127F721D031D950020F058 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		A7127F741D031D950020F058 /* muParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParser.cpp; sourceTree = "<group>"; };
+		A7127F751D031D950020F058 /* muParserBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserBase.cpp; sourceTree = "<group>"; };
+		A7127F761D031D950020F058 /* muParserBytecode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserBytecode.cpp; sourceTree = "<group>"; };
+		A7127F771D031D950020F058 /* muParserCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserCallback.cpp; sourceTree = "<group>"; };
+		A7127F781D031D950020F058 /* muParserDLL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserDLL.cpp; sourceTree = "<group>"; };
+		A7127F791D031D950020F058 /* muParserError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserError.cpp; sourceTree = "<group>"; };
+		A7127F7A1D031D950020F058 /* muParserInt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserInt.cpp; sourceTree = "<group>"; };
+		A7127F7B1D031D950020F058 /* muParserTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserTest.cpp; sourceTree = "<group>"; };
+		A7127F7C1D031D950020F058 /* muParserTokenReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserTokenReader.cpp; sourceTree = "<group>"; };
+		A7127F7E1D031D950020F058 /* GettextHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GettextHelpers.h; sourceTree = "<group>"; };
+		A7127F7F1D031D950020F058 /* GettextHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GettextHelpers.m; sourceTree = "<group>"; };
+		A7127F801D031D950020F058 /* GettextTranslations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GettextTranslations.h; sourceTree = "<group>"; };
+		A7127F811D031D950020F058 /* GettextTranslations.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GettextTranslations.mm; sourceTree = "<group>"; };
+		A7127F821D031D950020F058 /* MOParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOParser.h; sourceTree = "<group>"; };
+		A7127F831D031D950020F058 /* MOParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOParser.m; sourceTree = "<group>"; };
+		A7127F841D031D950020F058 /* NOOPTranslations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOOPTranslations.h; sourceTree = "<group>"; };
+		A7127F851D031D950020F058 /* NOOPTranslations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOOPTranslations.m; sourceTree = "<group>"; };
+		A7127F861D031D950020F058 /* ParserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserProtocol.h; sourceTree = "<group>"; };
+		A7127F871D031D950020F058 /* pomo-iphone-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pomo-iphone-Prefix.pch"; sourceTree = "<group>"; };
+		A7127F881D031D950020F058 /* POParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POParser.h; sourceTree = "<group>"; };
+		A7127F891D031D950020F058 /* POParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POParser.m; sourceTree = "<group>"; };
+		A7127F8A1D031D950020F058 /* TranslationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationCenter.h; sourceTree = "<group>"; };
+		A7127F8B1D031D950020F058 /* TranslationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationCenter.m; sourceTree = "<group>"; };
+		A7127F8C1D031D950020F058 /* TranslationEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationEntry.h; sourceTree = "<group>"; };
+		A7127F8D1D031D950020F058 /* TranslationEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationEntry.m; sourceTree = "<group>"; };
+		A7127F8E1D031D950020F058 /* Translations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Translations.h; sourceTree = "<group>"; };
+		A7127F8F1D031D950020F058 /* Translations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translations.m; sourceTree = "<group>"; };
+		A7127F901D031D950020F058 /* TranslationsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationsProtocol.h; sourceTree = "<group>"; };
 		A7A63A351D031CE600D1CEA3 /* libgettext-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgettext-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A63A381D031CE600D1CEA3 /* gettext_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gettext_ios.h; sourceTree = "<group>"; };
 		A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gettext_ios.m; sourceTree = "<group>"; };
@@ -41,9 +102,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7127F611D031D950020F058 /* muparser */ = {
+			isa = PBXGroup;
+			children = (
+				A7127F621D031D950020F058 /* Changes.txt */,
+				A7127F631D031D950020F058 /* include */,
+				A7127F721D031D950020F058 /* License.txt */,
+				A7127F731D031D950020F058 /* src */,
+			);
+			path = muparser;
+			sourceTree = "<group>";
+		};
+		A7127F631D031D950020F058 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A7127F641D031D950020F058 /* muParser.h */,
+				A7127F651D031D950020F058 /* muParserBase.h */,
+				A7127F661D031D950020F058 /* muParserBytecode.h */,
+				A7127F671D031D950020F058 /* muParserCallback.h */,
+				A7127F681D031D950020F058 /* muParserDef.h */,
+				A7127F691D031D950020F058 /* muParserDLL.h */,
+				A7127F6A1D031D950020F058 /* muParserError.h */,
+				A7127F6B1D031D950020F058 /* muParserFixes.h */,
+				A7127F6C1D031D950020F058 /* muParserInt.h */,
+				A7127F6D1D031D950020F058 /* muParserStack.h */,
+				A7127F6E1D031D950020F058 /* muParserTemplateMagic.h */,
+				A7127F6F1D031D950020F058 /* muParserTest.h */,
+				A7127F701D031D950020F058 /* muParserToken.h */,
+				A7127F711D031D950020F058 /* muParserTokenReader.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A7127F731D031D950020F058 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A7127F741D031D950020F058 /* muParser.cpp */,
+				A7127F751D031D950020F058 /* muParserBase.cpp */,
+				A7127F761D031D950020F058 /* muParserBytecode.cpp */,
+				A7127F771D031D950020F058 /* muParserCallback.cpp */,
+				A7127F781D031D950020F058 /* muParserDLL.cpp */,
+				A7127F791D031D950020F058 /* muParserError.cpp */,
+				A7127F7A1D031D950020F058 /* muParserInt.cpp */,
+				A7127F7B1D031D950020F058 /* muParserTest.cpp */,
+				A7127F7C1D031D950020F058 /* muParserTokenReader.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A7127F7D1D031D950020F058 /* pomo-iphone */ = {
+			isa = PBXGroup;
+			children = (
+				A7127F7E1D031D950020F058 /* GettextHelpers.h */,
+				A7127F7F1D031D950020F058 /* GettextHelpers.m */,
+				A7127F801D031D950020F058 /* GettextTranslations.h */,
+				A7127F811D031D950020F058 /* GettextTranslations.mm */,
+				A7127F821D031D950020F058 /* MOParser.h */,
+				A7127F831D031D950020F058 /* MOParser.m */,
+				A7127F841D031D950020F058 /* NOOPTranslations.h */,
+				A7127F851D031D950020F058 /* NOOPTranslations.m */,
+				A7127F861D031D950020F058 /* ParserProtocol.h */,
+				A7127F871D031D950020F058 /* pomo-iphone-Prefix.pch */,
+				A7127F881D031D950020F058 /* POParser.h */,
+				A7127F891D031D950020F058 /* POParser.m */,
+				A7127F8A1D031D950020F058 /* TranslationCenter.h */,
+				A7127F8B1D031D950020F058 /* TranslationCenter.m */,
+				A7127F8C1D031D950020F058 /* TranslationEntry.h */,
+				A7127F8D1D031D950020F058 /* TranslationEntry.m */,
+				A7127F8E1D031D950020F058 /* Translations.h */,
+				A7127F8F1D031D950020F058 /* Translations.m */,
+				A7127F901D031D950020F058 /* TranslationsProtocol.h */,
+			);
+			path = "pomo-iphone";
+			sourceTree = "<group>";
+		};
 		A7A63A2C1D031CE600D1CEA3 = {
 			isa = PBXGroup;
 			children = (
+				A7127F611D031D950020F058 /* muparser */,
+				A7127F7D1D031D950020F058 /* pomo-iphone */,
 				A7A63A371D031CE600D1CEA3 /* gettext-ios */,
 				A7A63A361D031CE600D1CEA3 /* Products */,
 			);
@@ -122,7 +259,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7127F9C1D031D950020F058 /* MOParser.m in Sources */,
+				A7127FA01D031D950020F058 /* TranslationEntry.m in Sources */,
+				A7127F981D031D950020F058 /* muParserTest.cpp in Sources */,
+				A7127F9A1D031D950020F058 /* GettextHelpers.m in Sources */,
+				A7127F9D1D031D950020F058 /* NOOPTranslations.m in Sources */,
+				A7127F911D031D950020F058 /* muParser.cpp in Sources */,
+				A7127F9E1D031D950020F058 /* POParser.m in Sources */,
+				A7127F961D031D950020F058 /* muParserError.cpp in Sources */,
+				A7127F971D031D950020F058 /* muParserInt.cpp in Sources */,
+				A7127F921D031D950020F058 /* muParserBase.cpp in Sources */,
 				A7A63A3B1D031CE600D1CEA3 /* gettext_ios.m in Sources */,
+				A7127F951D031D950020F058 /* muParserDLL.cpp in Sources */,
+				A7127F931D031D950020F058 /* muParserBytecode.cpp in Sources */,
+				A7127F9B1D031D950020F058 /* GettextTranslations.mm in Sources */,
+				A7127F941D031D950020F058 /* muParserCallback.cpp in Sources */,
+				A7127FA11D031D950020F058 /* Translations.m in Sources */,
+				A7127F9F1D031D950020F058 /* TranslationCenter.m in Sources */,
+				A7127F991D031D950020F058 /* muParserTokenReader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +402,7 @@
 				A7A63A401D031CE600D1CEA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
