@@ -13,7 +13,6 @@
 		A7127FC71D0320B10020F058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7127FC51D0320B10020F058 /* Main.storyboard */; };
 		A7127FC91D0320B10020F058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7127FC81D0320B10020F058 /* Assets.xcassets */; };
 		A7127FCC1D0320B10020F058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7127FCA1D0320B10020F058 /* LaunchScreen.storyboard */; };
-		A71280601D032FC00020F058 /* libmuparser-iphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A712805F1D032FC00020F058 /* libmuparser-iphone.a */; };
 		A71280621D032FC30020F058 /* libgettext-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71280611D032FC30020F058 /* libgettext-ios.a */; };
 		A71280641D0331D40020F058 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A71280631D0331D40020F058 /* libstdc++.6.0.9.dylib */; };
 /* End PBXBuildFile section */
@@ -40,7 +39,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71280641D0331D40020F058 /* libstdc++.6.0.9.dylib in Frameworks */,
-				A71280601D032FC00020F058 /* libmuparser-iphone.a in Frameworks */,
 				A71280621D032FC30020F058 /* libgettext-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
