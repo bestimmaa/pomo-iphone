@@ -21,11 +21,12 @@
 		A7127FA71D031F840020F058 /* NOOPTranslations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F841D031D950020F058 /* NOOPTranslations.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A7127FA81D031F890020F058 /* ParserProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F861D031D950020F058 /* ParserProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A7127FA91D031F8D0020F058 /* POParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F881D031D950020F058 /* POParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A7127FAA1D031F8F0020F058 /* TranslationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8A1D031D950020F058 /* TranslationCenter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7127FAA1D031F8F0020F058 /* TranslationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8A1D031D950020F058 /* TranslationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7127FAB1D031F930020F058 /* TranslationEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8C1D031D950020F058 /* TranslationEntry.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A7127FAC1D031F970020F058 /* Translations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8E1D031D950020F058 /* Translations.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A7127FAD1D031F990020F058 /* TranslationsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F901D031D950020F058 /* TranslationsProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A7127FAF1D031FA50020F058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7127FAE1D031FA50020F058 /* Foundation.framework */; };
+		A712805E1D032F8C0020F058 /* libmuparser-iphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A712805D1D032F8C0020F058 /* libmuparser-iphone.a */; };
 		A7A63A391D031CE600D1CEA3 /* gettext_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7A63A381D031CE600D1CEA3 /* gettext_ios.h */; };
 		A7A63A3B1D031CE600D1CEA3 /* gettext_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */; };
 /* End PBXBuildFile section */
@@ -89,6 +90,9 @@
 		A7127F8F1D031D950020F058 /* Translations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translations.m; sourceTree = "<group>"; };
 		A7127F901D031D950020F058 /* TranslationsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationsProtocol.h; sourceTree = "<group>"; };
 		A7127FAE1D031FA50020F058 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7127FE81D0326390020F058 /* muParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = muParser.h; sourceTree = "<group>"; };
+		A7127FEA1D0326390020F058 /* muParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = muParser.m; sourceTree = "<group>"; };
+		A712805D1D032F8C0020F058 /* libmuparser-iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmuparser-iphone.a"; path = "build/gettext-ios/Build/Products/Debug-iphoneos/libmuparser-iphone.a"; sourceTree = "<group>"; };
 		A7A63A351D031CE600D1CEA3 /* libgettext-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgettext-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A63A381D031CE600D1CEA3 /* gettext_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gettext_ios.h; sourceTree = "<group>"; };
 		A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gettext_ios.m; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A712805E1D032F8C0020F058 /* libmuparser-iphone.a in Frameworks */,
 				A7127FAF1D031FA50020F058 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,12 +194,23 @@
 			name = vendor;
 			sourceTree = "<group>";
 		};
+		A7127FE71D0326390020F058 /* muParser */ = {
+			isa = PBXGroup;
+			children = (
+				A7127FE81D0326390020F058 /* muParser.h */,
+				A7127FEA1D0326390020F058 /* muParser.m */,
+			);
+			path = muParser;
+			sourceTree = "<group>";
+		};
 		A7A63A2C1D031CE600D1CEA3 = {
 			isa = PBXGroup;
 			children = (
+				A712805D1D032F8C0020F058 /* libmuparser-iphone.a */,
 				A7127FAE1D031FA50020F058 /* Foundation.framework */,
 				A7127FA21D031DBF0020F058 /* vendor */,
 				A7A63A371D031CE600D1CEA3 /* gettext-ios */,
+				A7127FE71D0326390020F058 /* muParser */,
 				A7A63A361D031CE600D1CEA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -224,12 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7127FA41D031F660020F058 /* GettextHelpers.h in Headers */,
+				A7127FAA1D031F8F0020F058 /* TranslationCenter.h in Headers */,
 				A7127FA61D031F810020F058 /* MOParser.h in Headers */,
 				A7127FA71D031F840020F058 /* NOOPTranslations.h in Headers */,
 				A7127FA51D031F750020F058 /* GettextTranslations.h in Headers */,
 				A7127FA81D031F890020F058 /* ParserProtocol.h in Headers */,
 				A7127FA91D031F8D0020F058 /* POParser.h in Headers */,
-				A7127FAA1D031F8F0020F058 /* TranslationCenter.h in Headers */,
 				A7127FAB1D031F930020F058 /* TranslationEntry.h in Headers */,
 				A7127FAC1D031F970020F058 /* Translations.h in Headers */,
 				A7127FAD1D031F990020F058 /* TranslationsProtocol.h in Headers */,
@@ -314,7 +330,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -358,7 +374,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -394,6 +410,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/pomo-iphone";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/gettext-ios/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/build/gettext-ios/Build/Products/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
@@ -405,6 +426,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/pomo-iphone";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/gettext-ios/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/build/gettext-ios/Build/Products/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";

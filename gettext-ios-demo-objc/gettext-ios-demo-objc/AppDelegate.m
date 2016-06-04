@@ -19,6 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Load default textdomain, TEXTDOMAIN constant defined in GettextHelpers.h
+    // Make sure you created a default-xx.po file in your app resources
+    // Call somewhere in -(BOOL)application:willFinishLaunchingWithOptions:
+    [[TranslationCenter sharedCenter] loadTextDomain:DEFAULT_TEXTDOMAIN];
+    
+    NSInteger numApples = 10;
+    
+    // Translate single string
+    NSLog(@"Gettext translated string: %@", _(@"Hi, this is gettext!"));
+    
+    // Translate plural string
+    NSLog(@"Gettext translated plural: %@", _n(@"%d apple", @"%d apples", numApples));
+    
+    // Translate and format altogether
+    NSLog(@"Gettext translated plural: %@", [NSString stringWithFormat:_n(@"%d apple", @"%d apples", numApples), numApples]);
+    
     return YES;
 }
 

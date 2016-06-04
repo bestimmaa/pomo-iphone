@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:gettext-ios-demo-objc/gettext-ios-demo-objc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:muparser-iphone/muparser-iphone.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:gettext-ios.xcodeproj">
+   </FileRef>
+</Workspace>

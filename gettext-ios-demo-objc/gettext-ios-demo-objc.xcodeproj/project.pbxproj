@@ -13,25 +13,10 @@
 		A7127FC71D0320B10020F058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7127FC51D0320B10020F058 /* Main.storyboard */; };
 		A7127FC91D0320B10020F058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7127FC81D0320B10020F058 /* Assets.xcassets */; };
 		A7127FCC1D0320B10020F058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7127FCA1D0320B10020F058 /* LaunchScreen.storyboard */; };
-		A7127FE11D0321100020F058 /* libgettext-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7127FDE1D0320E50020F058 /* libgettext-ios.a */; };
+		A71280601D032FC00020F058 /* libmuparser-iphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A712805F1D032FC00020F058 /* libmuparser-iphone.a */; };
+		A71280621D032FC30020F058 /* libgettext-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71280611D032FC30020F058 /* libgettext-ios.a */; };
+		A71280641D0331D40020F058 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A71280631D0331D40020F058 /* libstdc++.6.0.9.dylib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A7127FDD1D0320E50020F058 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7127FD91D0320E50020F058 /* gettext-ios.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A7A63A351D031CE600D1CEA3;
-			remoteInfo = "gettext-ios";
-		};
-		A7127FDF1D03210C0020F058 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7127FD91D0320E50020F058 /* gettext-ios.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A7A63A341D031CE600D1CEA3;
-			remoteInfo = "gettext-ios";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A7127FB91D0320B00020F058 /* gettext-ios-demo-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gettext-ios-demo-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +29,9 @@
 		A7127FC81D0320B10020F058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7127FCB1D0320B10020F058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7127FCD1D0320B10020F058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7127FD91D0320E50020F058 /* gettext-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "gettext-ios.xcodeproj"; path = "../gettext-ios.xcodeproj"; sourceTree = "<group>"; };
+		A712805F1D032FC00020F058 /* libmuparser-iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmuparser-iphone.a"; path = "../build/gettext-ios/Build/Products/Debug-iphoneos/libmuparser-iphone.a"; sourceTree = "<group>"; };
+		A71280611D032FC30020F058 /* libgettext-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgettext-ios.a"; path = "../build/gettext-ios/Build/Products/Debug-iphoneos/libgettext-ios.a"; sourceTree = "<group>"; };
+		A71280631D0331D40020F058 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7127FE11D0321100020F058 /* libgettext-ios.a in Frameworks */,
+				A71280641D0331D40020F058 /* libstdc++.6.0.9.dylib in Frameworks */,
+				A71280601D032FC00020F058 /* libmuparser-iphone.a in Frameworks */,
+				A71280621D032FC30020F058 /* libgettext-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +51,9 @@
 		A7127FB01D0320B00020F058 = {
 			isa = PBXGroup;
 			children = (
-				A7127FD91D0320E50020F058 /* gettext-ios.xcodeproj */,
+				A71280631D0331D40020F058 /* libstdc++.6.0.9.dylib */,
+				A71280611D032FC30020F058 /* libgettext-ios.a */,
+				A712805F1D032FC00020F058 /* libmuparser-iphone.a */,
 				A7127FBB1D0320B10020F058 /* gettext-ios-demo-objc */,
 				A7127FBA1D0320B00020F058 /* Products */,
 			);
@@ -100,14 +91,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A7127FDA1D0320E50020F058 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A7127FDE1D0320E50020F058 /* libgettext-ios.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,7 +105,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A7127FE01D03210C0020F058 /* PBXTargetDependency */,
 			);
 			name = "gettext-ios-demo-objc";
 			productName = "gettext-ios-demo-objc";
@@ -154,28 +136,12 @@
 			mainGroup = A7127FB01D0320B00020F058;
 			productRefGroup = A7127FBA1D0320B00020F058 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A7127FDA1D0320E50020F058 /* Products */;
-					ProjectRef = A7127FD91D0320E50020F058 /* gettext-ios.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A7127FB81D0320B00020F058 /* gettext-ios-demo-objc */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A7127FDE1D0320E50020F058 /* libgettext-ios.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libgettext-ios.a";
-			remoteRef = A7127FDD1D0320E50020F058 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A7127FB71D0320B00020F058 /* Resources */ = {
@@ -202,14 +168,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A7127FE01D03210C0020F058 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "gettext-ios";
-			targetProxy = A7127FDF1D03210C0020F058 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A7127FC51D0320B10020F058 /* Main.storyboard */ = {
@@ -319,9 +277,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)/include/gettext-ios";
 				INFOPLIST_FILE = "gettext-ios-demo-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "klickrent.gettext-ios-demo-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -331,9 +291,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/gettext-ios";
 				INFOPLIST_FILE = "gettext-ios-demo-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "klickrent.gettext-ios-demo-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +320,7 @@
 				A7127FD21D0320B10020F058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

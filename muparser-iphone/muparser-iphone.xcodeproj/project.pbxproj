@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71280221D032E4A0020F058 /* muparser_iphone.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A71280211D032E4A0020F058 /* muparser_iphone.h */; };
+		A71280241D032E4A0020F058 /* muparser_iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = A71280231D032E4A0020F058 /* muparser_iphone.m */; };
+		A71280451D032E810020F058 /* muParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A712803A1D032E810020F058 /* muParser.m */; };
+		A71280461D032E810020F058 /* muParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A712803C1D032E810020F058 /* muParser.cpp */; };
+		A71280471D032E810020F058 /* muParserBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A712803D1D032E810020F058 /* muParserBase.cpp */; };
+		A71280481D032E810020F058 /* muParserBytecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A712803E1D032E810020F058 /* muParserBytecode.cpp */; };
+		A71280491D032E810020F058 /* muParserCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A712803F1D032E810020F058 /* muParserCallback.cpp */; };
+		A712804A1D032E810020F058 /* muParserDLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71280401D032E810020F058 /* muParserDLL.cpp */; };
+		A712804B1D032E810020F058 /* muParserError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71280411D032E810020F058 /* muParserError.cpp */; };
+		A712804C1D032E810020F058 /* muParserInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71280421D032E810020F058 /* muParserInt.cpp */; };
+		A712804D1D032E810020F058 /* muParserTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71280431D032E810020F058 /* muParserTest.cpp */; };
+		A712804E1D032E810020F058 /* muParserTokenReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71280441D032E810020F058 /* muParserTokenReader.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A712801C1D032E4A0020F058 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A71280221D032E4A0020F058 /* muparser_iphone.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A712801E1D032E4A0020F058 /* libmuparser-iphone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libmuparser-iphone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71280211D032E4A0020F058 /* muparser_iphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = muparser_iphone.h; sourceTree = "<group>"; };
+		A71280231D032E4A0020F058 /* muparser_iphone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = muparser_iphone.m; sourceTree = "<group>"; };
+		A712802B1D032E810020F058 /* muParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParser.h; sourceTree = "<group>"; };
+		A712802C1D032E810020F058 /* muParserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserBase.h; sourceTree = "<group>"; };
+		A712802D1D032E810020F058 /* muParserBytecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserBytecode.h; sourceTree = "<group>"; };
+		A712802E1D032E810020F058 /* muParserCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserCallback.h; sourceTree = "<group>"; };
+		A712802F1D032E810020F058 /* muParserDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserDef.h; sourceTree = "<group>"; };
+		A71280301D032E810020F058 /* muParserDLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserDLL.h; sourceTree = "<group>"; };
+		A71280311D032E810020F058 /* muParserError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserError.h; sourceTree = "<group>"; };
+		A71280321D032E810020F058 /* muParserFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserFixes.h; sourceTree = "<group>"; };
+		A71280331D032E810020F058 /* muParserInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserInt.h; sourceTree = "<group>"; };
+		A71280341D032E810020F058 /* muParserStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserStack.h; sourceTree = "<group>"; };
+		A71280351D032E810020F058 /* muParserTemplateMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserTemplateMagic.h; sourceTree = "<group>"; };
+		A71280361D032E810020F058 /* muParserTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserTest.h; sourceTree = "<group>"; };
+		A71280371D032E810020F058 /* muParserToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserToken.h; sourceTree = "<group>"; };
+		A71280381D032E810020F058 /* muParserTokenReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserTokenReader.h; sourceTree = "<group>"; };
+		A71280391D032E810020F058 /* muParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParser.h; path = ../../muparser/muParser.h; sourceTree = "<group>"; };
+		A712803A1D032E810020F058 /* muParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = muParser.m; path = ../../muparser/muParser.m; sourceTree = "<group>"; };
+		A712803C1D032E810020F058 /* muParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParser.cpp; sourceTree = "<group>"; };
+		A712803D1D032E810020F058 /* muParserBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserBase.cpp; sourceTree = "<group>"; };
+		A712803E1D032E810020F058 /* muParserBytecode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserBytecode.cpp; sourceTree = "<group>"; };
+		A712803F1D032E810020F058 /* muParserCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserCallback.cpp; sourceTree = "<group>"; };
+		A71280401D032E810020F058 /* muParserDLL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserDLL.cpp; sourceTree = "<group>"; };
+		A71280411D032E810020F058 /* muParserError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserError.cpp; sourceTree = "<group>"; };
+		A71280421D032E810020F058 /* muParserInt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserInt.cpp; sourceTree = "<group>"; };
+		A71280431D032E810020F058 /* muParserTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserTest.cpp; sourceTree = "<group>"; };
+		A71280441D032E810020F058 /* muParserTokenReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = muParserTokenReader.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A712801B1D032E4A0020F058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71280151D032E4A0020F058 = {
+			isa = PBXGroup;
+			children = (
+				A71280201D032E4A0020F058 /* muparser-iphone */,
+				A712801F1D032E4A0020F058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A712801F1D032E4A0020F058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A712801E1D032E4A0020F058 /* libmuparser-iphone.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A71280201D032E4A0020F058 /* muparser-iphone */ = {
+			isa = PBXGroup;
+			children = (
+				A712802A1D032E810020F058 /* include */,
+				A71280391D032E810020F058 /* muParser.h */,
+				A712803A1D032E810020F058 /* muParser.m */,
+				A712803B1D032E810020F058 /* src */,
+				A71280211D032E4A0020F058 /* muparser_iphone.h */,
+				A71280231D032E4A0020F058 /* muparser_iphone.m */,
+			);
+			path = "muparser-iphone";
+			sourceTree = "<group>";
+		};
+		A712802A1D032E810020F058 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A712802B1D032E810020F058 /* muParser.h */,
+				A712802C1D032E810020F058 /* muParserBase.h */,
+				A712802D1D032E810020F058 /* muParserBytecode.h */,
+				A712802E1D032E810020F058 /* muParserCallback.h */,
+				A712802F1D032E810020F058 /* muParserDef.h */,
+				A71280301D032E810020F058 /* muParserDLL.h */,
+				A71280311D032E810020F058 /* muParserError.h */,
+				A71280321D032E810020F058 /* muParserFixes.h */,
+				A71280331D032E810020F058 /* muParserInt.h */,
+				A71280341D032E810020F058 /* muParserStack.h */,
+				A71280351D032E810020F058 /* muParserTemplateMagic.h */,
+				A71280361D032E810020F058 /* muParserTest.h */,
+				A71280371D032E810020F058 /* muParserToken.h */,
+				A71280381D032E810020F058 /* muParserTokenReader.h */,
+			);
+			name = include;
+			path = ../../muparser/include;
+			sourceTree = "<group>";
+		};
+		A712803B1D032E810020F058 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A712803C1D032E810020F058 /* muParser.cpp */,
+				A712803D1D032E810020F058 /* muParserBase.cpp */,
+				A712803E1D032E810020F058 /* muParserBytecode.cpp */,
+				A712803F1D032E810020F058 /* muParserCallback.cpp */,
+				A71280401D032E810020F058 /* muParserDLL.cpp */,
+				A71280411D032E810020F058 /* muParserError.cpp */,
+				A71280421D032E810020F058 /* muParserInt.cpp */,
+				A71280431D032E810020F058 /* muParserTest.cpp */,
+				A71280441D032E810020F058 /* muParserTokenReader.cpp */,
+			);
+			name = src;
+			path = ../../muparser/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A712801D1D032E4A0020F058 /* muparser-iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71280271D032E4A0020F058 /* Build configuration list for PBXNativeTarget "muparser-iphone" */;
+			buildPhases = (
+				A712801A1D032E4A0020F058 /* Sources */,
+				A712801B1D032E4A0020F058 /* Frameworks */,
+				A712801C1D032E4A0020F058 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "muparser-iphone";
+			productName = "muparser-iphone";
+			productReference = A712801E1D032E4A0020F058 /* libmuparser-iphone.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71280161D032E4A0020F058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = vendor;
+				TargetAttributes = {
+					A712801D1D032E4A0020F058 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A71280191D032E4A0020F058 /* Build configuration list for PBXProject "muparser-iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A71280151D032E4A0020F058;
+			productRefGroup = A712801F1D032E4A0020F058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A712801D1D032E4A0020F058 /* muparser-iphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A712801A1D032E4A0020F058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71280451D032E810020F058 /* muParser.m in Sources */,
+				A71280481D032E810020F058 /* muParserBytecode.cpp in Sources */,
+				A71280461D032E810020F058 /* muParser.cpp in Sources */,
+				A712804B1D032E810020F058 /* muParserError.cpp in Sources */,
+				A71280491D032E810020F058 /* muParserCallback.cpp in Sources */,
+				A71280241D032E4A0020F058 /* muparser_iphone.m in Sources */,
+				A712804C1D032E810020F058 /* muParserInt.cpp in Sources */,
+				A71280471D032E810020F058 /* muParserBase.cpp in Sources */,
+				A712804D1D032E810020F058 /* muParserTest.cpp in Sources */,
+				A712804E1D032E810020F058 /* muParserTokenReader.cpp in Sources */,
+				A712804A1D032E810020F058 /* muParserDLL.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A71280251D032E4A0020F058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A71280261D032E4A0020F058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A71280281D032E4A0020F058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A71280291D032E4A0020F058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A71280191D032E4A0020F058 /* Build configuration list for PBXProject "muparser-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71280251D032E4A0020F058 /* Debug */,
+				A71280261D032E4A0020F058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71280271D032E4A0020F058 /* Build configuration list for PBXNativeTarget "muparser-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71280281D032E4A0020F058 /* Debug */,
+				A71280291D032E4A0020F058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A71280161D032E4A0020F058 /* Project object */;
+}
