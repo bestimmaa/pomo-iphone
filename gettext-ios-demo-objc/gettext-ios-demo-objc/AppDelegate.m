@@ -28,7 +28,7 @@
     //[[TranslationCenter sharedCenter]setLanguage:@"de-DE"];
     NSLog(@"Current language %@", [[TranslationCenter sharedCenter]language]);
     
-    NSInteger numApples = 10;
+    NSInteger numApples = 1;
     
     // Translate single string
     NSLog(@"Gettext translated string: %@", _(@"Hi, this is gettext!"));

@@ -125,6 +125,7 @@
 		A7A63A351D031CE600D1CEA3 /* libgettext-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgettext-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A63A381D031CE600D1CEA3 /* gettext_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gettext_ios.h; sourceTree = "<group>"; };
 		A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gettext_ios.m; sourceTree = "<group>"; };
+		A7C7849A1D058EDB00D7CBD1 /* GettextHelpersSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GettextHelpersSwift.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +230,7 @@
 				A7127F8E1D031D950020F058 /* Translations.h */,
 				A7127F8F1D031D950020F058 /* Translations.m */,
 				A7127F901D031D950020F058 /* TranslationsProtocol.h */,
+				A7C7849A1D058EDB00D7CBD1 /* GettextHelpersSwift.h */,
 			);
 			path = "pomo-iphone";
 			sourceTree = "<group>";

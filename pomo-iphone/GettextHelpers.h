@@ -15,6 +15,8 @@
 #error GettextHelpers require overloadable extension
 #endif
 
+
+
 /**
  *  Translate a string using provided text domain
  *
@@ -26,6 +28,8 @@
 static inline NSString* _(NSString* singular, NSString* domain) OVERLOADABLE_FUNC {
 	return [[TranslationCenter sharedCenter] translate:singular domain:domain];
 };
+
+
 
 /**
  *  Translate a string from default text domain
