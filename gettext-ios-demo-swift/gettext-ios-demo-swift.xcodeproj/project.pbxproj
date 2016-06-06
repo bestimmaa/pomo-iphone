@@ -12,6 +12,11 @@
 		A7C7847A1D057C2600D7CBD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C784781D057C2600D7CBD1 /* Main.storyboard */; };
 		A7C7847C1D057C2600D7CBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C7847B1D057C2600D7CBD1 /* Assets.xcassets */; };
 		A7C7847F1D057C2600D7CBD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C7847D1D057C2600D7CBD1 /* LaunchScreen.storyboard */; };
+		A7C784891D057D9D00D7CBD1 /* NonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C784881D057D9D00D7CBD1 /* NonObject.m */; };
+		A7C7848B1D057E7E00D7CBD1 /* libgettext-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C7848A1D057E7E00D7CBD1 /* libgettext-ios.a */; };
+		A7C7848D1D057ECE00D7CBD1 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C7848C1D057ECE00D7CBD1 /* libstdc++.6.0.9.dylib */; };
+		A7C784981D0580B800D7CBD1 /* default-de-DE.mo in Resources */ = {isa = PBXBuildFile; fileRef = A7C784961D0580B800D7CBD1 /* default-de-DE.mo */; };
+		A7C784991D0580B800D7CBD1 /* default-de-DE.po in Resources */ = {isa = PBXBuildFile; fileRef = A7C784971D0580B800D7CBD1 /* default-de-DE.po */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		A7C7847B1D057C2600D7CBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7C7847E1D057C2600D7CBD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7C784801D057C2600D7CBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C784861D057D9D00D7CBD1 /* gettext-ios-demo-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gettext-ios-demo-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7C784871D057D9D00D7CBD1 /* NonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonObject.h; sourceTree = "<group>"; };
+		A7C784881D057D9D00D7CBD1 /* NonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonObject.m; sourceTree = "<group>"; };
+		A7C7848A1D057E7E00D7CBD1 /* libgettext-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgettext-ios.a"; path = "../build/gettext-ios/Build/Products/Debug-iphonesimulator/libgettext-ios.a"; sourceTree = "<group>"; };
+		A7C7848C1D057ECE00D7CBD1 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		A7C784961D0580B800D7CBD1 /* default-de-DE.mo */ = {isa = PBXFileReference; lastKnownFileType = file; path = "default-de-DE.mo"; sourceTree = "<group>"; };
+		A7C784971D0580B800D7CBD1 /* default-de-DE.po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "default-de-DE.po"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C7848D1D057ECE00D7CBD1 /* libstdc++.6.0.9.dylib in Frameworks */,
+				A7C7848B1D057E7E00D7CBD1 /* libgettext-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +52,15 @@
 		A7C784681D057C2600D7CBD1 = {
 			isa = PBXGroup;
 			children = (
+				A7C784961D0580B800D7CBD1 /* default-de-DE.mo */,
+				A7C784971D0580B800D7CBD1 /* default-de-DE.po */,
+				A7C7848C1D057ECE00D7CBD1 /* libstdc++.6.0.9.dylib */,
+				A7C7848A1D057E7E00D7CBD1 /* libgettext-ios.a */,
+				A7C784871D057D9D00D7CBD1 /* NonObject.h */,
+				A7C784881D057D9D00D7CBD1 /* NonObject.m */,
 				A7C784731D057C2600D7CBD1 /* gettext-ios-demo-swift */,
 				A7C784721D057C2600D7CBD1 /* Products */,
+				A7C784861D057D9D00D7CBD1 /* gettext-ios-demo-swift-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +145,9 @@
 			files = (
 				A7C7847F1D057C2600D7CBD1 /* LaunchScreen.storyboard in Resources */,
 				A7C7847C1D057C2600D7CBD1 /* Assets.xcassets in Resources */,
+				A7C784991D0580B800D7CBD1 /* default-de-DE.po in Resources */,
 				A7C7847A1D057C2600D7CBD1 /* Main.storyboard in Resources */,
+				A7C784981D0580B800D7CBD1 /* default-de-DE.mo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C784771D057C2600D7CBD1 /* ViewController.swift in Sources */,
+				A7C784891D057D9D00D7CBD1 /* NonObject.m in Sources */,
 				A7C784751D057C2600D7CBD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +275,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../pomo-iphone";
 				INFOPLIST_FILE = "gettext-ios-demo-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "klickrent.gettext-ios-demo-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gettext-ios-demo-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +290,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../pomo-iphone";
 				INFOPLIST_FILE = "gettext-ios-demo-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "klickrent.gettext-ios-demo-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gettext-ios-demo-swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +319,7 @@
 				A7C784851D057C2600D7CBD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

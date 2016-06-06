@@ -15,6 +15,8 @@
 		A7127FCC1D0320B10020F058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7127FCA1D0320B10020F058 /* LaunchScreen.storyboard */; };
 		A71280621D032FC30020F058 /* libgettext-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71280611D032FC30020F058 /* libgettext-ios.a */; };
 		A71280641D0331D40020F058 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A71280631D0331D40020F058 /* libstdc++.6.0.9.dylib */; };
+		A7C784941D0580A300D7CBD1 /* default-de-DE.mo in Resources */ = {isa = PBXBuildFile; fileRef = A7C784921D0580A300D7CBD1 /* default-de-DE.mo */; };
+		A7C784951D0580A300D7CBD1 /* default-de-DE.po in Resources */ = {isa = PBXBuildFile; fileRef = A7C784931D0580A300D7CBD1 /* default-de-DE.po */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A712805F1D032FC00020F058 /* libmuparser-iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmuparser-iphone.a"; path = "../build/gettext-ios/Build/Products/Debug-iphoneos/libmuparser-iphone.a"; sourceTree = "<group>"; };
 		A71280611D032FC30020F058 /* libgettext-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgettext-ios.a"; path = "../build/gettext-ios/Build/Products/Debug-iphoneos/libgettext-ios.a"; sourceTree = "<group>"; };
 		A71280631D0331D40020F058 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		A7C784921D0580A300D7CBD1 /* default-de-DE.mo */ = {isa = PBXFileReference; lastKnownFileType = file; path = "default-de-DE.mo"; sourceTree = "<group>"; };
+		A7C784931D0580A300D7CBD1 /* default-de-DE.po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "default-de-DE.po"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 		A7127FB01D0320B00020F058 = {
 			isa = PBXGroup;
 			children = (
+				A7C784921D0580A300D7CBD1 /* default-de-DE.mo */,
+				A7C784931D0580A300D7CBD1 /* default-de-DE.po */,
 				A71280631D0331D40020F058 /* libstdc++.6.0.9.dylib */,
 				A71280611D032FC30020F058 /* libgettext-ios.a */,
 				A712805F1D032FC00020F058 /* libmuparser-iphone.a */,
@@ -148,7 +154,9 @@
 			files = (
 				A7127FCC1D0320B10020F058 /* LaunchScreen.storyboard in Resources */,
 				A7127FC91D0320B10020F058 /* Assets.xcassets in Resources */,
+				A7C784951D0580A300D7CBD1 /* default-de-DE.po in Resources */,
 				A7127FC71D0320B10020F058 /* Main.storyboard in Resources */,
+				A7C784941D0580A300D7CBD1 /* default-de-DE.mo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

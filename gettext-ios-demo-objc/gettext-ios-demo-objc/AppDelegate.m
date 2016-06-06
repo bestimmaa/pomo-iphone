@@ -25,6 +25,9 @@
     // Call somewhere in -(BOOL)application:willFinishLaunchingWithOptions:
     [[TranslationCenter sharedCenter] loadTextDomain:DEFAULT_TEXTDOMAIN];
     
+    //[[TranslationCenter sharedCenter]setLanguage:@"de-DE"];
+    NSLog(@"Current language %@", [[TranslationCenter sharedCenter]language]);
+    
     NSInteger numApples = 10;
     
     // Translate single string
