@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:gettext-ios-demo-swift/gettext-ios-demo-swift.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:gettext-ios-demo-objc/gettext-ios-demo-objc.xcodeproj">
    </FileRef>
    <FileRef

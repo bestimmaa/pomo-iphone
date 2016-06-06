@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7011E021D03352F008D4BB3 /* gettextios.h in Headers */ = {isa = PBXBuildFile; fileRef = A7011E011D03352F008D4BB3 /* gettextios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7011E071D03356D008D4BB3 /* GettextHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F7E1D031D950020F058 /* GettextHelpers.h */; };
+		A7011E081D03356D008D4BB3 /* GettextHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7F1D031D950020F058 /* GettextHelpers.m */; };
+		A7011E091D03356D008D4BB3 /* GettextTranslations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F801D031D950020F058 /* GettextTranslations.h */; };
+		A7011E0A1D03356D008D4BB3 /* GettextTranslations.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7127F811D031D950020F058 /* GettextTranslations.mm */; };
+		A7011E0B1D03356D008D4BB3 /* MOParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F821D031D950020F058 /* MOParser.h */; };
+		A7011E0C1D03356D008D4BB3 /* MOParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F831D031D950020F058 /* MOParser.m */; };
+		A7011E0D1D03356D008D4BB3 /* NOOPTranslations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F841D031D950020F058 /* NOOPTranslations.h */; };
+		A7011E0E1D03356D008D4BB3 /* NOOPTranslations.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F851D031D950020F058 /* NOOPTranslations.m */; };
+		A7011E0F1D03356D008D4BB3 /* ParserProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F861D031D950020F058 /* ParserProtocol.h */; };
+		A7011E101D03356D008D4BB3 /* pomo-iphone-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A7127F871D031D950020F058 /* pomo-iphone-Prefix.pch */; };
+		A7011E111D03356D008D4BB3 /* POParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F881D031D950020F058 /* POParser.h */; };
+		A7011E121D03356D008D4BB3 /* POParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F891D031D950020F058 /* POParser.m */; };
+		A7011E131D03356D008D4BB3 /* TranslationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8A1D031D950020F058 /* TranslationCenter.h */; };
+		A7011E141D03356D008D4BB3 /* TranslationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8B1D031D950020F058 /* TranslationCenter.m */; };
+		A7011E151D03356D008D4BB3 /* TranslationEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8C1D031D950020F058 /* TranslationEntry.h */; };
+		A7011E161D03356D008D4BB3 /* TranslationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8D1D031D950020F058 /* TranslationEntry.m */; };
+		A7011E171D03356D008D4BB3 /* Translations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F8E1D031D950020F058 /* Translations.h */; };
+		A7011E181D03356D008D4BB3 /* Translations.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F8F1D031D950020F058 /* Translations.m */; };
+		A7011E191D03356D008D4BB3 /* TranslationsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A7127F901D031D950020F058 /* TranslationsProtocol.h */; };
+		A7011E1B1D03358E008D4BB3 /* libmuparser-iphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7011E1A1D03358E008D4BB3 /* libmuparser-iphone.a */; };
+		A7011E1C1D033597008D4BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7127FAE1D031FA50020F058 /* Foundation.framework */; };
+		A7011E1E1D0336DA008D4BB3 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A7011E1D1D0336DA008D4BB3 /* libstdc++.6.0.9.dylib */; };
 		A7127F9A1D031D950020F058 /* GettextHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F7F1D031D950020F058 /* GettextHelpers.m */; };
 		A7127F9B1D031D950020F058 /* GettextTranslations.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7127F811D031D950020F058 /* GettextTranslations.mm */; };
 		A7127F9C1D031D950020F058 /* MOParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F831D031D950020F058 /* MOParser.m */; };
@@ -29,6 +52,7 @@
 		A712805E1D032F8C0020F058 /* libmuparser-iphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A712805D1D032F8C0020F058 /* libmuparser-iphone.a */; };
 		A7A63A391D031CE600D1CEA3 /* gettext_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7A63A381D031CE600D1CEA3 /* gettext_ios.h */; };
 		A7A63A3B1D031CE600D1CEA3 /* gettext_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */; };
+		A7AC1C4F1D0341B600590624 /* gettext_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A63A3A1D031CE600D1CEA3 /* gettext_ios.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +69,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A7011DFF1D03352F008D4BB3 /* gettextios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = gettextios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7011E011D03352F008D4BB3 /* gettextios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gettextios.h; sourceTree = "<group>"; };
+		A7011E031D03352F008D4BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7011E1A1D03358E008D4BB3 /* libmuparser-iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmuparser-iphone.a"; path = "build/gettext-ios/Build/Products/Debug-iphonesimulator/libmuparser-iphone.a"; sourceTree = "<group>"; };
+		A7011E1D1D0336DA008D4BB3 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
 		A7127F621D031D950020F058 /* Changes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changes.txt; sourceTree = "<group>"; };
 		A7127F641D031D950020F058 /* muParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParser.h; sourceTree = "<group>"; };
 		A7127F651D031D950020F058 /* muParserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muParserBase.h; sourceTree = "<group>"; };
@@ -99,6 +128,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A7011DFB1D03352F008D4BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7011E1E1D0336DA008D4BB3 /* libstdc++.6.0.9.dylib in Frameworks */,
+				A7011E1B1D03358E008D4BB3 /* libmuparser-iphone.a in Frameworks */,
+				A7011E1C1D033597008D4BB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7A63A321D031CE600D1CEA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,6 +150,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7011E001D03352F008D4BB3 /* gettextios */ = {
+			isa = PBXGroup;
+			children = (
+				A7011E011D03352F008D4BB3 /* gettextios.h */,
+				A7011E031D03352F008D4BB3 /* Info.plist */,
+			);
+			path = gettextios;
+			sourceTree = "<group>";
+		};
 		A7127F611D031D950020F058 /* muparser */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,11 +254,14 @@
 		A7A63A2C1D031CE600D1CEA3 = {
 			isa = PBXGroup;
 			children = (
+				A7011E1D1D0336DA008D4BB3 /* libstdc++.6.0.9.dylib */,
+				A7011E1A1D03358E008D4BB3 /* libmuparser-iphone.a */,
 				A712805D1D032F8C0020F058 /* libmuparser-iphone.a */,
 				A7127FAE1D031FA50020F058 /* Foundation.framework */,
 				A7127FA21D031DBF0020F058 /* vendor */,
 				A7A63A371D031CE600D1CEA3 /* gettext-ios */,
 				A7127FE71D0326390020F058 /* muParser */,
+				A7011E001D03352F008D4BB3 /* gettextios */,
 				A7A63A361D031CE600D1CEA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -219,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				A7A63A351D031CE600D1CEA3 /* libgettext-ios.a */,
+				A7011DFF1D03352F008D4BB3 /* gettextios.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,6 +287,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		A7011DFC1D03352F008D4BB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7011E191D03356D008D4BB3 /* TranslationsProtocol.h in Headers */,
+				A7011E071D03356D008D4BB3 /* GettextHelpers.h in Headers */,
+				A7011E101D03356D008D4BB3 /* pomo-iphone-Prefix.pch in Headers */,
+				A7011E0B1D03356D008D4BB3 /* MOParser.h in Headers */,
+				A7011E151D03356D008D4BB3 /* TranslationEntry.h in Headers */,
+				A7011E091D03356D008D4BB3 /* GettextTranslations.h in Headers */,
+				A7011E111D03356D008D4BB3 /* POParser.h in Headers */,
+				A7011E131D03356D008D4BB3 /* TranslationCenter.h in Headers */,
+				A7011E171D03356D008D4BB3 /* Translations.h in Headers */,
+				A7011E0F1D03356D008D4BB3 /* ParserProtocol.h in Headers */,
+				A7011E0D1D03356D008D4BB3 /* NOOPTranslations.h in Headers */,
+				A7011E021D03352F008D4BB3 /* gettextios.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7127FA31D031F540020F058 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +326,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		A7011DFE1D03352F008D4BB3 /* gettextios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7011E061D03352F008D4BB3 /* Build configuration list for PBXNativeTarget "gettextios" */;
+			buildPhases = (
+				A7011DFA1D03352F008D4BB3 /* Sources */,
+				A7011DFB1D03352F008D4BB3 /* Frameworks */,
+				A7011DFC1D03352F008D4BB3 /* Headers */,
+				A7011DFD1D03352F008D4BB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gettextios;
+			productName = gettextios;
+			productReference = A7011DFF1D03352F008D4BB3 /* gettextios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A7A63A341D031CE600D1CEA3 /* gettext-ios */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7A63A3E1D031CE600D1CEA3 /* Build configuration list for PBXNativeTarget "gettext-ios" */;
@@ -282,6 +371,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Klickrent GmbH";
 				TargetAttributes = {
+					A7011DFE1D03352F008D4BB3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					A7A63A341D031CE600D1CEA3 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -300,11 +392,38 @@
 			projectRoot = "";
 			targets = (
 				A7A63A341D031CE600D1CEA3 /* gettext-ios */,
+				A7011DFE1D03352F008D4BB3 /* gettextios */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A7011DFD1D03352F008D4BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A7011DFA1D03352F008D4BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7011E121D03356D008D4BB3 /* POParser.m in Sources */,
+				A7011E0C1D03356D008D4BB3 /* MOParser.m in Sources */,
+				A7011E141D03356D008D4BB3 /* TranslationCenter.m in Sources */,
+				A7011E181D03356D008D4BB3 /* Translations.m in Sources */,
+				A7011E161D03356D008D4BB3 /* TranslationEntry.m in Sources */,
+				A7011E081D03356D008D4BB3 /* GettextHelpers.m in Sources */,
+				A7011E0A1D03356D008D4BB3 /* GettextTranslations.mm in Sources */,
+				A7AC1C4F1D0341B600590624 /* gettext_ios.m in Sources */,
+				A7011E0E1D03356D008D4BB3 /* NOOPTranslations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7A63A311D031CE600D1CEA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +443,60 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A7011E041D03352F008D4BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = gettextios/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-lmuparser-iphone",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = klickrent.gettextios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7011E051D03352F008D4BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = gettextios/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-lmuparser-iphone",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = klickrent.gettextios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A7A63A3C1D031CE600D1CEA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -441,6 +614,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A7011E061D03352F008D4BB3 /* Build configuration list for PBXNativeTarget "gettextios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7011E041D03352F008D4BB3 /* Debug */,
+				A7011E051D03352F008D4BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A7A63A301D031CE600D1CEA3 /* Build configuration list for PBXProject "gettext-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
