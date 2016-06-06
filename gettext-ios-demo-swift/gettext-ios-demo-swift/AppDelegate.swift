@@ -23,9 +23,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let numApples = 1;
         
         // Translate single string
-        let translatedString : String =  translate("Hi, this is gettext!","default")
-        print("Gettext translated string:",translatedString)
+        print("Gettext translated string:",translate_("Hi, this is gettext!"))
         
+        // Translate plural string
+        print("Gettext translated plural:", translate_n("%d apple", "%d apples", numApples));
+        
+        // Translate and format altogether
+        print("Gettext translated plural: ", String(format:translate_n("%d apple", "%d apples", numApples), numApples));
+        
+        let decArgs = String(format: "The current time is %02d:%02d", 10, 4)
+        let stringArgs = String(format: "A string like %@", "this")
+        let floatArgs = String(format: "Only display %d decimals for this float %.02f",2,M_PI)
+
+        print(stringArgs)
+        print(decArgs)
+        print(floatArgs)
+
     
         return true
     }
