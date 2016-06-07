@@ -5,10 +5,10 @@ filename = "gettext-ios-demo-swift/gettext-ios-demo-swift/AppDelegate.swift"
 
 
 def extract_strings(filename):
-    txt = open(filename)
+    txt = open(filename).read()
     print "Searching in file %r:" % filename
-    result_singular = re.findall(regex_translate(), txt.read())
-    result_plural = re.findall(regex_translate_plural(), txt.read())
+    result_singular = re.findall(regex_translate(), txt)
+    result_plural = re.findall(regex_translate_plural(), txt)
     return result_singular, result_plural
 
 def po_file_header():
@@ -30,11 +30,10 @@ def regex_nslocalizedstring():
     return 'NSLocalizedString\(\"([^[\"]*)\",\s?comment:\s?\"[^[\"]*\"\)'
 
 def regex_translate():
-    return 'translate_\([\s\t\n\r]*(\".+\")[\s\t\n\r]*\)'
+    return 'translate_\([\s\t\n\r]*\"(.+)\"[\s\t\n\r]*\)'
 
 def regex_translate_plural():
     return 'translate_n\([\s\t\n\r]*\"(.+?)\",[\s\t\n\r]*\"(.+?)\"[\s\t\n\r]*,[\s\t\n\r]*[\w|\d]*[\s\t\n\r]*\)'
-
 
 def po_file_ids_strings_singular(results):
     lines = []
