@@ -14,6 +14,8 @@
 
 @end
 
+static NSString* translatble = @"Hi, this is gettext!";
+
 @implementation AppDelegate
 
 
@@ -29,15 +31,24 @@
     NSLog(@"Current language %@", [[TranslationCenter sharedCenter]language]);
     
     NSInteger numApples = 1;
+
     
     // Translate single string
-    NSLog(@"Gettext translated string: %@", _(@"Hi, this is gettext!"));
+    NSLog(@"Gettext translated string: %@", _(KRTranslations.Apples));
     
     // Translate plural string
     NSLog(@"Gettext translated plural: %@", _n(@"%d apple", @"%d apples", numApples));
     
     // Translate and format altogether
     NSLog(@"Gettext translated plural: %@", [NSString stringWithFormat:_n(@"%d apple", @"%d apples", numApples), numApples]);
+    
+    // Also break the lines!
+    NSLog(@"Gettext translated plural: %@",
+          [NSString stringWithFormat:
+           _n(@"%d apple",
+              @"%d apples",
+              numApples), numApples]);
+
     
     return YES;
 }
