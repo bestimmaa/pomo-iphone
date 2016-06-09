@@ -34,7 +34,7 @@ static NSString* translatble = @"Hi, this is gettext!";
 
     
     // Translate single string
-    NSLog(@"Gettext translated string: %@", _(KRTranslations.Apples));
+    NSLog(@"Gettext translated string: %@", _("Hi, this is gettext!"));
     
     // Translate plural string
     NSLog(@"Gettext translated plural: %@", _n(@"%d apple", @"%d apples", numApples));

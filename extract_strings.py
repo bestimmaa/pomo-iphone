@@ -44,15 +44,17 @@ def po_file_ids_strings_singular(results):
 def po_file_ids_strings_plural(results):
     lines = []
     for r in results:
-        lines.append("msgid \"{}\"\nmsgstr \"\"\n".format(r))
+        lines.append("msgid \"{}\"\nmsgid_plural \"{}\"\nmsgstr[0] \"\"\nmsgstr[1] \"\"\n".format(r[0],r[1]))
     return lines
 
 result_singular, result_plural = extract_strings(filename)
 print("singular results: "+ str(result_singular))
 print("plural results: "+str(result_plural))
-f = open('swift.po', 'w+')
+f = open('default_swift.po', 'w+')
 po_file_lines_s = po_file_ids_strings_singular(result_singular)
 po_file_lines_p = po_file_ids_strings_plural(result_plural)
 f.write(po_file_header())
 for line in po_file_lines_s:
+    f.write(line)
+for line in po_file_lines_p:
     f.write(line)
