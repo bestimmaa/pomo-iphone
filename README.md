@@ -1,8 +1,12 @@
 # POMO-iphone
 
-This fork is to show the possibilities and limitations for using GetText in Swift projects. The great https://github.com/pronebird/pomo-iphone library does work with a few modifications. Main limitation is a lack of support for the Swift programming langugage in *xgettext*. If you have any comment regarding please feel free to contact me. 
+This fork is to show the possibilities and limitations for using GetText in Swift projects. 
 
 This repository includes a Xcode workspace with the pomo-iphone lib, an example project in Objective-C, an example project in Swift and a totally hacky Python script to extract translatable strings from Swift source files. 
+
+The https://github.com/pronebird/pomo-iphone library does work with a few modifications. Main limitation is a lack of support for the Swift programming langugage in *xgettext*. If you have any comment regarding please feel free to contact me. 
+
+
 
 ----
 POMO-iphone is a gettext translations for iPhone written in Objective-C. It supposed to be a good substitution for outdated Apple translations system. However I still use default mechanisms to translate settings.bundle and Storyboard, so this solution is not 100% perfect.
